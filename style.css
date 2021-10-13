@@ -1,7 +1,8 @@
 .animation{
     color:red;
     transform: translateX(100px) translateY(75px);
-    transition: transform 500ms ease-in-out 25ms;   
+    transition: transform 500ms ease-in-out 25ms;  
+    animation-iteration-count: infinite;
 }
 li{
     animation-duration: 10s;
